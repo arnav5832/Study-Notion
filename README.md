@@ -1,16 +1,3 @@
-# React + Vite
+StudyNotion is a full-stack EdTech platform designed to provide a complete online learning experience for both students and instructors. The platform enables instructors to create, manage, and publish courses, upload video lectures, and monitor enrolled students, while students can browse available courses, purchase them securely via Razorpay integration, and access course content through a personalized dashboard.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application features secure user authentication using JWT, role-based authorization, and efficient media handling through Cloudinary. The frontend is built with React, Redux Toolkit, and Tailwind CSS for a responsive and modern UI, while the backend is developed using Node.js, Express.js, and MongoDB to ensure scalability and performance. The project is deployed using Netlify for the frontend and Render for the backend, demonstrating real-world production deployment practices.
